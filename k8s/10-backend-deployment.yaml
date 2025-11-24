@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: backend
-          image: ghcr.io/navneetkaur10/backend:7bb1fac2ed9e19439575d1e037794f4cf11f8c60
+          image: ghcr.io/navneetkaur10/backend:654bd5b3737a9090ccc7f6fd12199521e0d4bf9b
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
